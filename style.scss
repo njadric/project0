@@ -1,0 +1,24 @@
+/* variable */
+  $font_size: 20px;
+
+/* nesting */
+  div {
+    text-decoration: underline;
+    footer  {
+      font-size: $font_size;
+    }
+    a {
+      font-style: italic;
+    }
+
+  }
+
+/* inheritance */
+  .nav-link {
+    color: red;
+
+  }
+  .disabled {
+    @extend .nav-link;
+    height: 60px;
+  }

@@ -1,0 +1,17 @@
+/* variable */
+/* nesting */
+div {
+  text-decoration: underline; }
+  div footer {
+    font-size: 20px; }
+  div a {
+    font-style: italic; }
+
+/* inheritance */
+.nav-link, .disabled {
+  color: red; }
+
+.disabled {
+  height: 60px; }
+
+/*# sourceMappingURL=style.css.map */
